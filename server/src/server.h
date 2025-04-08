@@ -8,5 +8,6 @@
 #include "utils.h"
 
 void iterator(char* value);
+bool realizar_handshake(int cliente_fd);
 
 #endif /* SERVER_H_ */

@@ -6,9 +6,11 @@
 #include<signal.h>
 #include<unistd.h>
 #include<sys/socket.h>
+#include<sys/types.h> 
 #include<netdb.h>
 #include<string.h>
 #include<commons/log.h>
+#include<commons/string.h>
 
 typedef enum
 {
